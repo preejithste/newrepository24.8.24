@@ -1,0 +1,27 @@
+package com.testnglearning;
+
+import org.testng.annotations.Test;
+
+public class PriorityTest {
+
+	/*
+	 * @Test public void testTwo() { System.out.println("test two");
+	 */
+	//}
+	
+	@Test
+	public void testOne() {
+		System.out.println("testone");
+		
+	}
+	
+	@Test
+	public void testTwo() {
+		System.out.println("test two");
+
+	/*@Test
+	public void testTwo() {
+		System.out.println("test two");*/
+	}
+
+}

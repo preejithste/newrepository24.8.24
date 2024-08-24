@@ -1,0 +1,33 @@
+package com.tests;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.pages.HomePage;
+import com.pages.LoginPage;
+
+public class HomeTest extends BaseTest {
+
+	@Test
+	public void swagLabsHeadingTest() {
+
+		Login.enterUserName("standard_user");
+		Login.enterPassword("secret_sauce");
+		Login.clickLoginButton();
+		Assert.assertEquals(home.verifySwagLabHeading(), "Swag Labs");
+
+	}
+
+	@Test
+	public void productsHeadingTest() {
+
+		Login.enterUserName("standard_user");
+		Login.enterPassword("secret_sauce");
+		Login.clickLoginButton();
+		Assert.assertEquals(home.verifyProductsHeading(), "Products");
+
+	}
+
+}

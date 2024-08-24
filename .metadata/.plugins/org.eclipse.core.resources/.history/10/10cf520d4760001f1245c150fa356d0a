@@ -1,0 +1,42 @@
+package com.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import com.utilities.Utilities;
+
+public class LoginPage {
+
+	WebDriver driver;
+	By loginButton = By.id("login-button");
+	By alertMessage = By.xpath("//h3[normalize-space()='Epic sadface: Username is required']");
+	By userName = By.xpath("//input[@id='user-name']");
+	By password=By.xpath("//input[@id='password']");
+
+	public LoginPage(WebDriver driver) {
+		this.driver = driver;
+	}
+
+	public boolean verifyLoginButton() {
+		//return driver.findElement(loginButton).isDisplayed();
+		return Utilities.isElementDisplayed(driver, loginButton);
+
+	}
+
+	public void clickLoginButton() {
+		//driver.findElement(loginButton).click();
+		Utilities.clickElement(driver, loginButton);
+
+	}
+
+	public String verifyAlertMessage() {
+		//return driver.findElement(alertMessage).getText();
+		return Utilities.getTextValue(driver, alertMessage);
+	}
+	public void enterUserName(String username) {
+		driver.findElement(userName).sendKeys("standard_user");
+	}
+	public void enterPassword(String pwd){
+		driver.findElement(password).sendKeys("secret_sauce");
+	}
+}

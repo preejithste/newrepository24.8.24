@@ -1,0 +1,11 @@
+package com.testnglearning;
+
+public class SampleTest {
+	
+	
+	public void test1()
+	{
+		System.out.println("this is test one");
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.testng.enabled;
+
+public class DemoTest1 {
+	
+	//Assume this class has login related TC's
+	
+	public void test1()
+	{
+		System.out.println("Test 1");
+	}
+
+}

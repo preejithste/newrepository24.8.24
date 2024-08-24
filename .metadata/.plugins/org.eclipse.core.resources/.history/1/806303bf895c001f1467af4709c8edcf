@@ -1,0 +1,23 @@
+package com.testnglearning;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class TestNGReports {
+	
+	WebDriver driver;
+	
+	public void setUp() throws InterruptedException
+	{
+		ChromeOptions chromeOptions=new ChromeOptions();
+		chromeOptions.addArguments("--remote-allow-origins-*");
+		driver=new ChromeDriver(chromeOptions);
+		driver.get("https://www.saucedemo.com");
+		driver.manage().window().maximize();
+		Thread.sleep(3000);
+				
+	}
+	
+
+}

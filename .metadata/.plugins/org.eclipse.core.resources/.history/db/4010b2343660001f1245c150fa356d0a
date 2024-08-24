@@ -1,0 +1,29 @@
+package com.tests;
+
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class HomeTest extends BaseTest {
+
+	@Test(priority = 0)
+	public void swagLabsHeadingTest() {
+
+		Login.enterUserName("standard_user");
+		Login.enterPassword("secret_sauce");
+		Login.clickLoginButton();
+		Assert.assertEquals(home.verifySwagLabHeading(), "Swag Labs");
+
+	}
+
+	@Test(priority = 1)
+	public void productsHeadingTest() {
+
+		Login.enterUserName("standard_user");
+		Login.enterPassword("secret_sauce");
+		Login.clickLoginButton();
+		Assert.assertEquals(home.verifyProductsHeading(), "Products");
+
+	}
+
+}

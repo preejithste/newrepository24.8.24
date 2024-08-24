@@ -1,0 +1,33 @@
+package com.testnglearning;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+
+public class HardAssertions {
+WebDriver driver;
+	@BeforeMethod
+	public void setUp() throws InterruptedException
+	{
+		ChromeOptions chromeOptions=new ChromeOptions();
+		chromeOptions.addArguments("--remote-allow-oarigins=*");
+		driver=new ChromeDriver();
+		driver.get("https://www.saucedemo.com");
+		driver.manage().window().maximize();
+		Thread.sleep(3000);
+			}
+	
+	public void titleAndLoginButtonDisplayTest()
+	{
+		String actualTitle=driver.getTitle();
+		String expectedTitle="Swag Labs";
+		Assert.assertEquals(actualTitle, expectedTitle);
+	}
+	
+	public void tearDown() {
+		
+		driver.close();
+	}
+}

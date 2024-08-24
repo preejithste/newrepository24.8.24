@@ -1,0 +1,15 @@
+package com.testnglearning;
+
+public class PriorityTest {
+	
+	public void testOne()
+	{
+		System.out.println("testone");
+	}
+	
+    public void testTwo()
+    {
+    	System.out.println("test two");
+    }
+
+}

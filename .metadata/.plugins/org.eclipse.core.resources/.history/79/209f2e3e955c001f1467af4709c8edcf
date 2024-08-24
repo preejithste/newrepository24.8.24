@@ -1,0 +1,29 @@
+package com.testng.grouping;
+
+public class Grouping {
+
+	public void test1() {
+		System.out.println("Test 1");
+	}
+
+	public void test2() {
+		System.out.println("Test 2");
+	}
+
+	public void test3() {
+		System.out.println("Test 3");
+	}
+
+	public void test4() {
+		System.out.println("Test 4");
+	}
+
+	public void test5() {
+		System.out.println("Test 5");
+	}
+
+	public void test6() {
+		System.out.println("Test 6");
+	}
+
+}

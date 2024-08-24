@@ -1,0 +1,16 @@
+package com.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class LoginPage {
+	
+	WebDriver driver;
+	By loginButton=By.id("login-button");
+	
+	public boolean verifyLoginButton()
+	{
+		return driver.findElement(loginButton).isDisplayed();
+	}
+
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.029">
+    <properties></properties>
+
+
+
+            <testcase
+                name="test3"
+                time="0.002"
+                classname="com.testng.grouping.Grouping">
+            </testcase>
+            <testcase
+                name="test6"
+                time="0.005"
+                classname="com.testng.grouping.Grouping">
+            </testcase>
+            <testcase
+                name="test4"
+                time="0.002"
+                classname="com.testng.grouping.Grouping">
+            </testcase>
+            <testcase
+                name="test5"
+                time="0.002"
+                classname="com.testng.grouping.Grouping">
+            </testcase>
+            <testcase
+                name="test2"
+                time="0.003"
+                classname="com.testng.grouping.Grouping">
+            </testcase>
+            <testcase
+                name="test1"
+                time="0.015"
+                classname="com.testng.grouping.Grouping">
+            </testcase>
+</testsuite>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-17T18:31:51 IST" name="Suite" finished-at="2024-08-17T18:31:51 IST" duration-ms="161">
+    <groups>
+      <group name="regreesion">
+        <method signature="Grouping.test1()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" name="test1" class="com.testng.grouping.Grouping"/>
+      </group> <!-- regreesion -->
+      <group name="regression">
+        <method signature="Grouping.test5()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" name="test5" class="com.testng.grouping.Grouping"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Grouping.test1()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" name="test1" class="com.testng.grouping.Grouping"/>
+        <method signature="Grouping.test3()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" name="test3" class="com.testng.grouping.Grouping"/>
+        <method signature="Grouping.test4()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" name="test4" class="com.testng.grouping.Grouping"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Grouping.test2()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" name="test2" class="com.testng.grouping.Grouping"/>
+        <method signature="Grouping.test3()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" name="test3" class="com.testng.grouping.Grouping"/>
+      </group> <!-- sanity -->
+      <group name="Alltests">
+        <method signature="Grouping.test1()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" name="test1" class="com.testng.grouping.Grouping"/>
+        <method signature="Grouping.test2()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" name="test2" class="com.testng.grouping.Grouping"/>
+        <method signature="Grouping.test3()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" name="test3" class="com.testng.grouping.Grouping"/>
+        <method signature="Grouping.test4()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" name="test4" class="com.testng.grouping.Grouping"/>
+        <method signature="Grouping.test5()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" name="test5" class="com.testng.grouping.Grouping"/>
+        <method signature="Grouping.test6()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" name="test6" class="com.testng.grouping.Grouping"/>
+      </group> <!-- Alltests -->
+    </groups>
+    <test started-at="2024-08-17T18:31:51 IST" name="Test" finished-at="2024-08-17T18:31:51 IST" duration-ms="161">
+      <class name="com.testng.grouping.Grouping">
+        <test-method signature="test1()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" started-at="2024-08-17T18:31:51 IST" name="test1" finished-at="2024-08-17T18:31:51 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" started-at="2024-08-17T18:31:51 IST" name="test2" finished-at="2024-08-17T18:31:51 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" started-at="2024-08-17T18:31:51 IST" name="test3" finished-at="2024-08-17T18:31:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" started-at="2024-08-17T18:31:51 IST" name="test4" finished-at="2024-08-17T18:31:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" started-at="2024-08-17T18:31:51 IST" name="test5" finished-at="2024-08-17T18:31:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="test6()[pri:0, instance:com.testng.grouping.Grouping@2ab4bc72]" started-at="2024-08-17T18:31:51 IST" name="test6" finished-at="2024-08-17T18:31:51 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+      </class> <!-- com.testng.grouping.Grouping -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

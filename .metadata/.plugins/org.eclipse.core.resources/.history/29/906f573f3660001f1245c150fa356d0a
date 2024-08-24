@@ -1,0 +1,27 @@
+package com.tests;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.pages.LoginPage;
+
+public class LoginTest extends BaseTest {
+
+	@Test(priority = 0)
+	public void verifyLoginTest() {
+
+		Assert.assertEquals(Login.verifyLoginButton(), true);
+
+	}
+
+	@Test(priority = 1)
+	public void verifyAlertMessageTest() {
+
+		Login.clickLoginButton();
+		Assert.assertEquals(Login.verifyAlertMessage(), "Epic sadface: Username is required");
+
+	}
+
+}
